@@ -24,9 +24,9 @@ contract KaseiCoinCrowdsale { // UPDATE THE CONTRACT SIGNATURE TO ADD INHERITANC
 /*
 contract KaseiCoinCrowdsaleDeployer {
     // Create an `address public` variable called `kasei_token_address`.
-    // YOUR CODE HERE!
     // Create an `address public` variable called `kasei_crowdsale_address`.
-    // YOUR CODE HERE!
+    address public kasei_token_address;
+    address public kasei_crowdsale_address;
 
     // Add the constructor.
     constructor(
