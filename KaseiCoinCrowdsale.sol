@@ -49,7 +49,8 @@ contract KaseiCoinCrowdsaleDeployer {
 
 
         // Set the `KaseiCoinCrowdsale` contract as a minter
-        // YOUR CODE HERE!
+        token.addMinter(kasei_crowdsale_address);
+
         
         // Have the `KaseiCoinCrowdsaleDeployer` renounce its minter role.
         // YOUR CODE HERE!
