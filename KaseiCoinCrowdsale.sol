@@ -34,7 +34,7 @@ contract KaseiCoinCrowdsaleDeployer {
         string memory symbol,
         address payable wallet
     ) public {
-        // Create a new instance of the KaseiCoin contract.
+        // .Create a new instance of the KaseiCoin contract
         KaseiCoin token = new KaseiCoin(name, symbol, 0);
         
         // Assign the token contract’s address to the `kasei_token_address` variable.
@@ -45,7 +45,8 @@ contract KaseiCoinCrowdsaleDeployer {
 
             
         // Aassign the `KaseiCoinCrowdsale` contract’s address to the `kasei_crowdsale_address` variable.
-        // YOUR CODE HERE!
+        kasei_crowdsale_address = address(kasei_crowdsale);
+
 
         // Set the `KaseiCoinCrowdsale` contract as a minter
         // YOUR CODE HERE!
