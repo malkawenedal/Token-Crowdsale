@@ -53,7 +53,6 @@ contract KaseiCoinCrowdsaleDeployer {
 
         
         // Have the `KaseiCoinCrowdsaleDeployer` renounce its minter role.
-        // YOUR CODE HERE!
+        token.renounceMinter();
     }
 }
-*/
